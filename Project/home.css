@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trirong", serif;
+    font-size: 48px;
+    background-image: url('/images/kyle-bushnell-jaaAgZeFMgg-unsplash.jpg');
+  }
+nav{
+    height: 60px;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+#site-name{
+    flex: 1;
+}
+#site-name li {
+    font-size: 29px;
+    color: red;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+#ul-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13px;
+    flex: 2;
+}
+#home a{
+    color: red;
+}
+
+
+ul li{
+        list-style-type: none;
+        font-size: 21px;
+        cursor: pointer;
+}
+ul li :hover{
+        color: red;
+}
+ul li a{
+        text-decoration: none;
+        color: white;
+}
+.main{
+    height: 700px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 208px;
+}
+.first-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-container h1, p, div{
+    color: white;
+    text-align: center;
+}
+#prem{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Trirong", serif;
+}
+#para{
+    font-size: 20px;
+    line-height: 40px;
+    width: 700px;
+
+}
+#learn{
+    font-family: "Trirong", serif;
+    font-size: 700px;
+    margin-top: 20px;
+    width: 260px;
+    border: 2px solid white;
+    border-radius: 35px;
+    font-size: 25px;
+}
+.icons-container{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.fa {
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa-facebook{
+    color: white;
+}
+.fa-twitter {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}

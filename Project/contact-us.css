@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trirong", serif;
+  }
+nav{
+    height: 60px;
+    width: 100%;
+    /* background: white; */
+    display: flex;
+}
+#site-name{
+    flex: 1;
+}
+#site-name li {
+    font-size: 29px;
+    color: red;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+#ul-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13px;
+    flex: 2;
+}
+#contact-us a{
+    color: red;
+}
+#contact-us {
+    border-bottom: 2px solid red;
+}
+
+    ul li{
+        list-style-type: none;
+        font-size: 21px;
+        cursor: pointer;
+    }
+    ul li :hover{
+        color: red;
+    }
+    ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+    }
+
+.first-container{
+ background-image:linear-gradient(to right,rgba(238, 163, 245, 0.8), rgba(32, 230, 78, 0.2)), url('../images/photo-1529333166437-7750a6dd5a70.avif');
+ background-repeat: no-repeat;
+ height: 520px;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+ background-blend-mode: overlay;
+}
+.cont{
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 43px;
+}
+.second-container{
+    width: 100%;
+
+}
+.converse-text{
+    text:black;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.text-field{
+    width: 80%;
+    /* border: 1px solid; */
+    height: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.text-container{
+    height: 300px;
+    /* border: 1px solid green; */
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Contact form Input section... */
+.form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 590px;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+/* Contact form Input section... */
