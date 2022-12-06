@@ -6,8 +6,12 @@
 body {
     font-family: "Trirong", serif;
     font-size: 48px;
-    background-image: url('/images/kyle-bushnell-jaaAgZeFMgg-unsplash.jpg');
+    
   }
+.main-div{
+    background-image: url('/images/kyle-bushnell-jaaAgZeFMgg-unsplash.jpg');
+    height: 100%;
+}
 nav{
     height: 60px;
     width: 100%;
